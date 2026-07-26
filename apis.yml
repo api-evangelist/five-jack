@@ -1,19 +1,47 @@
 aid: five-jack
 name: Five Jack
-description: Five Jack is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Five Jack (PT. Five Jack) is the Indonesian company behind itemku, one of Southeast Asia's largest
+  digital-goods marketplaces for gamers. Founded in 2014 as a game price-comparison and classifieds
+  platform, itemku grew into a full marketplace where buyers and sellers trade in-game items, currency,
+  account top-ups, game keys, and vouchers across 200+ game categories including Roblox, Genshin Impact,
+  Mobile Legends, Dota 2, Steam, and Growtopia. The company reached one million orders in 2018, launched
+  its Android app and gaming blog in 2020, and became part of Bukalapak (IDX: BUKA) in May 2021. Five Jack
+  was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. It operates a
+  consumer-facing marketplace and does not currently publish a public developer API, SDKs, or developer
+  portal.
 url: https://raw.githubusercontent.com/api-evangelist/five-jack/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+x-parent-company: Bukalapak
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://files.itemku.com/images/itemku-og-image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Marketplace
+- Gaming
+- Digital Goods
+- Ecommerce
+- Indonesia
+- Game Top-Up
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,23 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/five-jack-domain-security.yml
 - type: Website
+  url: https://www.itemku.com/en/
+- type: About
+  url: https://www.itemku.com/en/about-itemku
+- type: Blog
+  url: https://www.itemku.com/blog/
+- type: PrivacyPolicy
+  url: https://www.itemku.com/en/privacy-policy
+- type: Login
+  url: https://www.itemku.com/en/login
+- type: Website
+  name: Corporate Site
   url: https://fivejack.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
